@@ -1,0 +1,19 @@
+POST http://localhost:8000/generate_article
+Content-Type: application/json
+
+{
+  "query": "主题：桂枝汤，字数：1000，参考网站：https://www.sohu.com/a/768567150_120398690?scm=1019.20001.0.0.0&spm=smpc.csrpage.news-list.1.1713355073724GLmz0aj"
+}
+
+###
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+###
